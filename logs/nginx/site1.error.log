@@ -1,0 +1,1 @@
+2025/04/06 06:42:24 [error] 31#31: *4 open() "/var/www/html/site1/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: site1.test.com, request: "GET /favicon.ico HTTP/1.1", host: "site1.test.com:8080", referrer: "http://site1.test.com:8080/site1/"
