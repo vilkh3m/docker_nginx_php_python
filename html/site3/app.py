@@ -9,7 +9,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def python_info():
-    # Zbieranie informacji
     info = {
         "Python Version": sys.version,
         "Python Executable": sys.executable,
@@ -27,7 +26,6 @@ def python_info():
         },
     }
 
-    # Formatowanie odpowiedzi jako HTML
     html = "<h1>Python Info</h1><pre>"
     for key, value in info.items():
         html += f"{key}: {value}\n"
